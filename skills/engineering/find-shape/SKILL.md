@@ -1,19 +1,19 @@
 ---
-name: evolution-loop
+name: find-shape
 description: >-
-  Run a bounded evolution loop to grow ONE capability toward a
-  judgment-scored fitness. A handful of rounds; each round is one
-  deliberate, best-effort change exposed to real feedback, and the next
-  round is discovered from what the last one taught — never planned in
-  advance. Use when the user wants to deliberately evolve or mature a
-  capability (a detector, prompt, agent, eval, classifier, model, ranking,
-  or piece of writing) against a real corpus over several rounds — often
-  phrased as a "5-iteration exercise", "evolution experiment", "N-round
-  loop", or "let's evolve X". NOT for one-off fixes, generic refactors, or
-  chasing a metric.
+  Find the shape of ONE capability by growing it toward a judgment-scored
+  fitness over a bounded run of rounds. Each round is one deliberate,
+  best-effort change exposed to real feedback, and the next round is
+  discovered from what the last one taught — never planned in advance. Use
+  when the user says /find-shape, "find the shape of this", "run a
+  find-shape", or wants to deliberately evolve or mature a capability (a
+  detector, prompt, agent, eval, classifier, model, ranking, rule, or piece
+  of writing) against a real corpus over several rounds — also phrased as a
+  "5-iteration exercise", "N-round loop", or "let's evolve X". NOT for
+  one-off fixes, generic refactors, or chasing a metric.
 ---
 
-# The evolution loop
+# Find shape
 
 A bounded loop for growing **one capability** into the best version of
 itself. A handful of rounds — five is the canonical budget. Each round you
@@ -137,10 +137,10 @@ loop back into aimless tweaking.
 
 ## Deliverables
 
-1. **A dated log** — `YYYY-MM-DD-<name>-evolution.md` — structured:
+1. **A dated log** — `YYYY-MM-DD-<name>-find-shape.md` — structured:
 
    ```
-   # <capability> — evolution loop
+   # <capability> — find shape
 
    ## Premise            what we're growing, and why now
    ## Fitness            the concrete question; what "better" means here
@@ -170,4 +170,4 @@ loop back into aimless tweaking.
 - Chasing a metric or a benchmark score. This loop optimizes *honest
   usefulness*, judged by you — a number is at best a secondary signal.
 - A roadmap you already know. If you can write all the steps in advance, you
-  don't have an evolution loop, you have a plan — go execute it.
+  don't have a shape to find, you have a plan — go execute it.

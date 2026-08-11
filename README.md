@@ -17,7 +17,7 @@ npx skills@latest add rodrigopsasaki/skills
 Or pick a single skill:
 
 ```bash
-npx skills@latest add rodrigopsasaki/skills/evolution-loop
+npx skills@latest add rodrigopsasaki/skills/find-shape
 ```
 
 This uses [skills.sh](https://skills.sh). Prefer to do it by hand? Each skill
@@ -28,7 +28,7 @@ want into `~/.claude/skills/` (global) or `.claude/skills/` (per-project).
 
 | Skill | What it does |
 | --- | --- |
-| [`evolution-loop`](./skills/engineering/evolution-loop/SKILL.md) | Grow one capability toward a judgment-scored fitness over a bounded run of rounds — each round the best change you can currently justify, exposed to real feedback, the next round *discovered* from the last rather than planned. The disciplined alternative to "just iterate on it." |
+| [`find-shape`](./skills/engineering/find-shape/SKILL.md) | Find the shape of one capability by growing it toward a judgment-scored fitness over a bounded run of rounds — each round the best change you can currently justify, exposed to real feedback, the next round *discovered* from the last rather than planned. The disciplined alternative to "just iterate on it." |
 
 ## Why these exist
 

@@ -1,151 +1,173 @@
 ---
 name: find-shape
 description: >-
-  Converge on the SHAPE of a load-bearing design decision by running
-  competing proposals through an adversary panel and synthesizing a design
-  authority the implementation is then held to. Use when the user says
-  /find-shape, "find the shape of this", "run a find-shape", or when a
-  decision is expensive to undo, has several coherent answers, or the
-  obvious answer is suspiciously easy. NOT for decisions a careful engineer
-  settles in ten minutes, and NOT for maturing a capability over rounds —
-  that is the evolution loop.
+  Find the shape of ONE capability by growing it toward a judgment-scored
+  fitness over a bounded run of rounds. Each round is one deliberate,
+  best-effort change exposed to real feedback, and the next round is
+  discovered from what the last one taught — never planned in advance. Use
+  when the user says /find-shape, "find the shape of this", "run a
+  find-shape", or wants to deliberately evolve or mature a capability (a
+  detector, prompt, agent, eval, classifier, model, ranking, rule, or piece
+  of writing) against a real corpus over several rounds — also phrased as a
+  "5-iteration exercise", "N-round loop", or "let's evolve X". NOT for
+  one-off fixes, generic refactors, or chasing a metric.
 ---
 
 # Find shape
 
-You are converging on the **shape** of a design decision. The output is a
-*design authority*: a note that later implementation is held against, and that
-is allowed to be wrong only in the ways it names itself.
+A bounded loop for growing **one capability** into the best version of
+itself. A handful of rounds — five is the canonical budget. Each round you
+make the capability the sharpest thing you can currently justify, run it
+against real material, and compare to the round before. What you learn
+breeds the next round.
 
-This is not a plan and not a survey of options. A plan says what to do next; a
-design authority says what would make an implementation correct.
+It is **not** a benchmark and **not** metric-optimization. Read the fitness
+section below — it is the single most important thing to get right.
 
-## Why it beats thinking harder
+## Why "loop", not "iteration"
 
-One line of reasoning converges on whatever it thought of first and then
-defends it. Three things break that, and all three are load-bearing:
+"Iteration" mis-cues everyone — humans and models alike — toward a small
+incremental tweak, and toward a pre-planned sequence of them. This is
+neither.
 
-1. **Independent proposals from assigned angles.** Not "brainstorm options" —
-   separate agents, each committed to defending one genuinely different
-   premise, none of which has seen the others.
-2. **Adversaries with distinct lenses**, whose job is to break proposals rather
-   than rank them politely. A lens that finds nothing has failed at its job, not
-   validated the work.
-3. **A synthesis that converges rather than summarizes.** It picks a base,
-   grafts what the others got right, and adjudicates where they disagree. A
-   synthesis that reports "A said X, B said Y" has not done the work.
+- Each round is the **best foreseeable change under scrutiny** — the boldest
+  move you can currently defend, implemented fully, then exposed to reality.
+  Not a sketch, not a hedge, not a safe delta.
+- The sequence is **discovered, not planned**. The next round does not exist
+  until this one has run. You are doing variation under selection: propose,
+  let reality judge, breed the next variant from what you just learned.
 
-## The process
+If you catch yourself writing out rounds 2 through 5 in advance, stop. That
+is the exact anti-pattern this loop exists to prevent.
 
-### 1. State the problem once, with ground truth attached
+## Fitness — the thing you are actually maximizing
 
-Write it once and reuse it *verbatim* in every prompt — proposals that received
-different framings cannot be compared. It must carry:
+Pick **one concrete question, scored by judgment**, and hold it constant
+across every round. Not a metric. A question you can answer honestly by
+looking at the output, phrased in terms of the real goal:
 
-- **What is actually broken or undecided**, in mechanism, not vibes.
-- **The current behaviour**, cited to file and line where code exists.
-- **The ground truth to measure against** — the real corpus, schema, or data,
-  with its path. Every proposal computes its answer against reality rather than
-  reasoning about what it would probably do.
-- **The laws any answer must satisfy** — the invariants this decision cannot
-  violate.
+> "After this change, could I do the downstream work safely from this output
+> alone?" · "Would this catch the thing a careful reviewer would catch?" ·
+> "Does this now say what it means?"
 
-If the user stated an acceptance criterion, **quote it verbatim** and mark it
-first-class. A criterion paraphrased is a criterion softened.
+Then:
 
-### 2. Assign genuinely different angles
+- **Convergence is the signal, not a number.** The win is when what the
+  system surfaces matches what *you* already know to be true when you look at
+  the material yourself. That convergence is what makes it trustworthy.
+- **Do not optimize a proxy.** If a change makes a number look better but
+  doesn't make the capability genuinely more useful — or worse, games the
+  number — it failed. The score going *up* is not the goal; the score being
+  *honest* is.
+- **Trust your taste.** You have free range on direction. Evolve where it
+  feels wanting. Your judgment about where it's lacking is part of the
+  experiment, not noise to be eliminated.
 
-Three to five proposers, one angle each, each committed to defending it. Choose
-angles that *cannot* converge by accident — different premises, not different
-emphases.
+Score each round on a couple of 0–3 axes if it helps, but the axes serve the
+question — never the reverse.
 
-**Include an eliminative angle**: the case that the thing being designed should
-not exist at all. Instruct it to steelman, or the others win by default rather
-than on merit.
+## The loop, per round
 
-Each proposal states:
-
-- The rule, precise enough to implement without interpretation.
-- Its output on the **real** corpus — computed, not imagined.
-- Its output on two or three constructed cases that are **not** the specimen.
-- **Where its own rule breaks.** Say in the prompt that a proposal with no
-  stated failure mode will be read as unexamined, not as flawless.
-- What it costs: implementation size, churn risk, whether it hides a tunable.
-
-### 3. Adversary panel — one lens each
-
-Three adversaries, each with a lens the others lack. A serviceable default set:
-
-- **Generalization** — does this fit anything but the specimen? Construct the
-  realistic case that breaks it. This lens exists to catch a rule quietly tuned
-  to the corpus in front of it.
-- **Specimen fit** — verify every claimed number *yourself* against the real
-  corpus. Design documents are wrong about their own numbers with a regularity
-  that stops being surprising.
-- **Mechanical soundness** — determinism, stability, honest degradation. Hunt
-  especially for **hidden tunables presented as principles**, and for rules that
-  produce a confident wrong answer where a legibly degraded one was available.
-
-Each reports, per proposal: the concrete input that breaks it, what it outputs
-there, what it should output, and whether the flaw is fatal or fixable. Then
-ranks for its own lens. Then names **the single strongest idea seen anywhere**,
-including inside a proposal it ranks last — grafts matter more than winners.
-
-### 4. Synthesize into the design authority
-
-One synthesizer, high effort, holding every proposal and every critique. Its
-instruction is **converge, do not summarize**: pick a base, graft, and resolve
-each cross-cutting failure — structurally where possible, explicitly where not.
-Where two adversaries disagree, adjudicate rather than reporting both.
-
-The note contains, in order:
-
-1. The verdict in one paragraph, stated implementably.
-2. What it does on the real corpus — including the specific cases that motivated
-   the exercise.
-3. What it does on the non-specimen cases.
-4. **Every tunable named as a tunable**, with the observable it derives from. If
-   a number cannot be derived, say so and say what would settle it.
-5. What it costs to migrate from current behaviour.
-6. The failure modes it keeps, and why those were judged acceptable.
-7. What remains genuinely the human's to decide — in plain language, no internal
-   jargon, no invented shorthand.
-
-Then a short plain-language summary for whoever must decide: what the shape is,
-why it beat the others, what it costs, what is left for them.
+1. **Understand what to improve.** Look at the current output through the
+   fitness lens. What would make it sharper, more honest, better calibrated,
+   more prepared? Pick the highest-leverage move.
+2. **State a hypothesis.** "X should happen because Y." Write it down *before*
+   you run. This is what makes "compare to the previous round" mean something
+   — otherwise you're just watching numbers move.
+3. **Implement the best possible version of that one change.** The real
+   thing, not a placeholder. Clean enough to keep.
+4. **Run it against the corpus.**
+5. **Compare to the previous round, then branch:**
+   - **Hypothesis held, it evolved** → write the round up, breed the next
+     round from what you now see.
+   - **Hypothesis failed** → **diagnose.** This is where the real work is
+     (see below). Fix it and re-run. **The fix-and-retry counts as the next
+     round** — a round spent diagnosing is a legitimate round.
 
 ## The rules that make it work
 
-- **Measure, never trust.** Every count in the problem statement and every count
-  in a proposal is unverified until someone recomputes it. This alone catches
-  real defects at a rate that justifies the whole exercise.
-- **The specimen is the specimen, never the target.** A rule that scores
-  perfectly on the corpus in front of you and fails on an ordinary one elsewhere
-  is a worse answer than one that scores adequately on both.
-- **Commit, do not hedge.** A proposal that concludes "it depends" has not
-  proposed anything.
-- **An adversary that praises has failed.** Empty findings are acceptable only
-  with an explicit account of what was tried.
-- **Name the tunables.** A threshold with a plausible story attached is still a
-  magic number until its derivation is stated. Any number that cannot be derived
-  from an observable is taste — and taste belongs to the human, surfaced rather
-  than buried in an implementation where it will read as a principle.
+These are load-bearing and learned the hard way. Skipping them turns the
+loop back into aimless tweaking.
 
-## Deliverable
+- **Round 0 is the baseline — the *current* capability, unchanged.** Run it
+  first, score it, and let that data reveal the headroom. The baseline's
+  headroom is what *picks* round 1. Round 0 is not your first change; it's
+  the "before" that every later round compares against.
 
-A design authority note in the project's own convention
-(`docs/notes/YYYY-MM-DD-<topic>.md`, or wherever that project keeps them),
-matching the register of the notes already there.
+- **The next round does not exist until this one has run.** Each result
+  picks the next single change. The emergent pivots are the entire value —
+  pre-planning the arc forecloses the learning and usually optimizes the
+  wrong thing.
 
-It must be buildable as written, honest about what only production settles, and
-specific enough that a reviewer can tell whether an implementation actually
-complied with it.
+- **Your best idea IS the next round — don't sandbag it.** If you're holding
+  a "best solution" for a later slot, that solution is the *next* round,
+  fully realized. Implement it now. (The classic mistake is mislabeling your
+  best idea as a modest round 0.)
+
+- **One change per round.** Machinery carried over from prior validated
+  rounds doesn't count as "the one change" — but don't stack two new bets in
+  a single round, or you won't know which one moved the needle.
+
+- **Genuine-vs-mistake is the central discrimination.** A regression or a
+  surprising result is *not* automatically a bug. Before you react, ask: is
+  this **the world actually being like this** (the finding stands — surfacing
+  it honestly *is* the result), or **my own mistake** (a bug in the detector,
+  a misread, a bad query — fix it)? Most of the loop's value lives in telling
+  these apart. Fix mistakes; keep findings.
+
+- **`unknown` is its own state.** Absence of evidence is not confirmation of
+  absence — "found no X" is not "there is no X." Don't falsely confirm
+  either. Never silently fold `unknown` into "pass" or "fail"; weight it as
+  the unknown it is.
+
+- **Convergence is when to stop or pivot.** When consecutive rounds add
+  nothing, you've converged on this target — say so, and either stop or pivot
+  to a new target. Five is a **budget, not a quota**. Don't manufacture
+  motion to fill slots.
+
+- **Report honestly, dull outcomes included.** A round where nothing moved
+  because "the material genuinely has none of what we're looking for" is a
+  valid, valuable round — say so. Regressions, no-ops, and "the assumption
+  failed against reality" are results, not failures to hide.
+
+- **Keep the noisy part at the edge.** Where you can, make the core
+  deterministic and idempotent so rounds are actually comparable; quarantine
+  anything stochastic (an LLM call, a sampled input) at the boundary. If a
+  re-run gives a different answer, you can't compare rounds.
+
+## Deliverables
+
+1. **A dated log** — `YYYY-MM-DD-<name>-find-shape.md` — structured:
+
+   ```
+   # <capability> — find shape
+
+   ## Premise            what we're growing, and why now
+   ## Fitness            the concrete question; what "better" means here
+   ## Round 0 — baseline the current capability, scored; the headroom it reveals
+
+   ## Round 1
+     Change       the one move
+     Hypothesis   X should happen because Y
+     Result       what actually happened vs the hypothesis
+     Diagnosis    (only if it failed) genuine finding, or my mistake?
+     Next         what this round tells the next one to be
+
+   ## Round 2 … (same shape)
+
+   ## Closing synthesis  what it proved; the open edges left honest
+   ```
+
+2. **The matured capability**, clean enough to keep.
+
+3. **Saved raw output per round** (e.g. `round-N.log`), so comparisons
+   survive later changes to the underlying data. "Latest" moves; your
+   evidence shouldn't.
 
 ## When NOT to use this
 
-- A decision a careful engineer settles in ten minutes. Just decide it.
-- **Maturing a capability over rounds against real material** — that is the
-  [evolution loop](../evolution-loop/SKILL.md). Find-shape converges on a
-  decision in one pass; the evolution loop grows one capability across many.
-- A decision already made. If you are looking for justification rather than
-  shape, you want a review, not this.
+- A one-off fix or a single well-understood change. Just make the change.
+- Chasing a metric or a benchmark score. This loop optimizes *honest
+  usefulness*, judged by you — a number is at best a secondary signal.
+- A roadmap you already know. If you can write all the steps in advance, you
+  don't have a shape to find, you have a plan — go execute it.

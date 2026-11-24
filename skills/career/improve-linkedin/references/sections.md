@@ -74,7 +74,7 @@ Consistency check across sections: the headline's noun should appear in the curr
 - Gate: RECOGNISED (opening), BELIEVED (middle), ACTED ON (last line).
 - Principle: the only free-form section where the person chooses emphasis. It turns a job list into a direction. Limit 2,600 characters [practice]; the preview before "see more" is roughly 200 characters, shorter on mobile (check live, sources disagree). Write the first two sentences so they stand alone: what the person does, for whom, in plain words. Middle: two or three concrete proofs. End: how to engage (what to contact them about, where). If the person is a job seeker, say the target role and the proof for it; a plea alone says nothing.
 - Fails when: opens with "passionate" or a life story before the point; copies the resume summary; is a keyword list; would be true of anyone in the field; has no route to contact.
-- Test (colleague swap): replace the name with a colleague's. If it still fits, it is generic. Then count nouns only this person could write (a unit, a tool, a client type, a place, a number). Zero means rewrite from their facts.
+- Test: do the first two sentences contain the words for the work the person wants to be found for, and does the section end by saying what to contact them about? This checks what is there. It is not a grade of the writing, and you never tell someone their About is generic.
 - Contested: first versus third person. Third person persists for executives, lawyers and speakers whose About doubles as an external bio; most advice favours first person as warmer and native to the platform. Default: first person; third person only when the text really serves as a press bio, and then without adjectives like "visionary".
 - Contested (mild): bullets versus paragraphs. Default: whichever makes the first lines most scannable; keep symbols and emoji sparse.
 
@@ -182,7 +182,7 @@ Tells:
 - About that does not match the timeline below it.
 - Claims that nothing could falsify.
 
-Fix: put in what only this person knows (a named system, a place, a decision, a mistake corrected, a number they can defend). Draft from their facts, in their own words, then cut: delete every sentence that would still be true of a colleague (the swap test in the About section). If AI helped, reinsert the specifics after it has cut and clarified. Read the result aloud; if the person would not say it to a colleague over coffee, delete it. Match the person's real register and language variety; a profile in a market's own idiom beats a translated template.
+Fix: put in what only this person knows (a named system, a place, a decision, a mistake corrected, a number they can defend). Draft from their facts, in their own words, then cut: delete every sentence that would still be true of a colleague. If AI helped, reinsert the specifics after it has cut and clarified. Read the result aloud; if the person would not say it to a colleague over coffee, delete it. Match the person's real register and language variety; a profile in a market's own idiom beats a translated template.
 
 ## 16. The honesty ceiling
 

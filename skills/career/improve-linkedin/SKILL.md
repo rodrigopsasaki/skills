@@ -271,9 +271,10 @@ first read too: dates against the years of experience they state, roles
 that overlap with no explanation, a past job still written in the present
 tense, a number in About that no role claims. When you find one, offer
 the small edit that would settle it for a reader. The person does not owe
-you an explanation, and nothing on their page is under suspicion. Run the
-swap test on About: put a colleague's name on it, and if it
-still fits, it is generic. Section-by-section principles, failure modes and
+you an explanation, and nothing on their page is under suspicion. For About,
+check what a search and a first glance need: do the opening lines carry
+the words for the work they want, and does it say what to contact them
+about? Do not grade the writing. Section-by-section principles, failure modes and
 tests: `references/sections.md`.
 
 **Acted on.** Is it clear what this person wants to be contacted about, and

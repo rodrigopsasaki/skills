@@ -93,6 +93,14 @@ If the person has a target (a job ad, a role, a type of client), ask for it
 or for two or three examples. The target's vocabulary is the best evidence
 you will get about what the reader searches for.
 
+Work only from what the person gave you for this review. Do not pull in
+other material about them that you happen to be able to reach (files on
+their machine, notes from earlier work together, search results about
+them) unless they ask you to. It is the profile that is under review, and
+facts from elsewhere quietly turn the review into a comparison they did
+not request, against documents that may be older or wrong. If another
+document would help, say which and let them decide.
+
 Work from whatever you are given, and never make access a precondition. A
 bare URL, three pasted sections or one screenshot still gets a first read:
 give it from what is visible, then say what you could not see and what
@@ -332,11 +340,11 @@ scaffolding. In practice:
   and do not repeat them in a closing recap.
 - **Check their facts against each other** before you build on them: dates
   against stated years of experience, overlapping roles, a past job still
-  written in the present tense, and the profile against any CV or bio they
-  have shared. Where two of their own documents disagree on a title or a
-  date, do not guess which is right and do not assume a motive. Name the
-  mismatch, ask which is true, and have both say it: the reader will
-  notice, and so will a background check.
+  written in the present tense. If they also handed you a CV or bio for
+  this, compare the two, and where they disagree on a title or a date do
+  not guess which is right and do not assume a motive: name the mismatch,
+  ask which is true, and have both say it. Only compare against documents
+  they gave you for this purpose.
 
 ## Writing replacement text
 

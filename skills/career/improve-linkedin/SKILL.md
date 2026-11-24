@@ -217,26 +217,27 @@ background check, this gate is already passed.
 ## Step 4: Give the first read
 
 The first thing the person gets is the whole picture, fast, before any
-question. It has six short parts and should read in three or four minutes.
+question. It has six parts. Length is not the limit on any of them; noise
+is (the test is under Step 5).
 
 ```
 **Signal.** Two or three sentences: who this profile speaks to today, and
 the one thing that most holds it back.
 
 ## Strengths
-What already works and has to survive any edit. Quote it. Three to five.
+What already works and has to survive any edit. Quote it.
 
 ## Weaknesses
 What costs them with a reader, worst first. One line each: what it is, and
-what a reader makes of it. Three to six.
+what a reader makes of it.
 
 ## Improve now
 The changes worth making whatever they decide next, ranked. Each with Now
 and Proposed (ready to paste), and "Needs from you" where a fact is
-missing. Three to five.
+missing.
 
 ## Pro tips
-Up to five things about how LinkedIn works that this profile is not using
+Things about how LinkedIn works that this profile is not using
 or is getting wrong. Each one tied to something on their page.
 
 ## Directions
@@ -335,9 +336,9 @@ turn.
 
 When they pick a direction and want the full treatment, give the few
 changes that matter for it, each with text ready to paste. Rank by gate
-first and by effect second. Keep the first tier to three to five changes: a
-person will do three things and will not do thirty, so a long
-undifferentiated list is a way of giving no advice.
+first and by effect second, and keep the order visible: twelve real
+changes in order of effect are useful, and twelve in a flat list are a way
+of giving no advice.
 
 Use this shape, scaled to what was asked:
 
@@ -381,19 +382,29 @@ thin evidence. For a quick look, give the verdict and the top three. For a
 single section, do that section, and add one line if an earlier gate is
 failing badly enough that the section will not matter until it is fixed.
 
-Keep the report short enough to act on. The replacement text is the
-product; everything around it is scaffolding, and a person skims
-scaffolding. In practice:
+The limit on a report is noise, not length. If a line gives this person
+something useful for their career, it belongs, however long the report
+gets. If it does not, it costs them attention and buries the lines that
+do. A line is noise when:
+
+- it would be true of any profile, so it tells them nothing about theirs;
+- it restates what is on their page without saying what a reader makes of
+  it or what to do about it;
+- it describes your process, your method or this skill instead of their
+  profile;
+- it repeats another line, or hedges one into meaning nothing;
+- it states how LinkedIn works without pointing at something on their
+  page.
+
+Read the draft once with that list and delete every line that fails. Do
+not pad a section to make it look complete, and do not trim a real finding
+to hit a size. Beyond that:
 
 - **Size it to how much LinkedIn matters for this person.** When the
   channel check says LinkedIn is a minor route for them, the whole report
   shrinks to the honest verdict, the two or three fixes that make up a
   credible minimum, and where their effort pays better. Do not run the full
   template on a profile that only has to survive a look.
-- **A full review reads in about five minutes.** Aim for under roughly 800
-  words of your own commentary around the proposed text. "Why" is one or
-  two sentences. Smaller fixes are one line each, six at most. "Leave
-  alone" is three or four lines.
 - **Speak the person's language, not the model's.** The four gates are your
   diagnostic. In the report, say "a recruiter searching for this role will
   not find you" or "nothing here lets a stranger check that", never "this

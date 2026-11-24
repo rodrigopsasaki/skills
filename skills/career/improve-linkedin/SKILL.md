@@ -93,6 +93,13 @@ If the person has a target (a job ad, a role, a type of client), ask for it
 or for two or three examples. The target's vocabulary is the best evidence
 you will get about what the reader searches for.
 
+Work from whatever you are given, and never make access a precondition. A
+bare URL, three pasted sections or one screenshot still gets a first read:
+give it from what is visible, then say what you could not see and what
+seeing it would add. Ask for a fuller source only when the person wants the
+deep pass, and offer the cheapest one for them (pasting a section is
+cheaper than an export).
+
 Say in your report what you could not see. A review that quietly skips the
 photo and the Featured section reads as if they were fine.
 

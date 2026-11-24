@@ -262,9 +262,13 @@ What makes it work:
   current role, a generic line, skills with no role behind them: wrong
   whatever comes next, so they can start tonight.
 - **A pro tip that would fit any profile is filler.** Each one takes a
-  platform fact from the reference files and points it at something on
-  this page: which of their fields recruiters can filter on, what the
-  logged-out view shows of them, what their top skill does in a search.
+  platform fact and points it at something on this page: which of their
+  fields recruiters can filter on, what the logged-out view shows of them,
+  what their top skill does in a search. The fact has to come from
+  `references/platform.md`, so read it before writing this part, even on a
+  fast first read. A tip you cannot find there does not go in: a confident
+  wrong statement about how LinkedIn works is the exact thing this skill
+  exists to stop.
 - **A direction is a reader the person does not have yet.** Look for what
   two or three of their facts make possible in combination that none
   suggests alone. The path they are already on is not a direction: nobody
@@ -275,9 +279,10 @@ What makes it work:
 - **If they already told you where they are going**, the Directions part
   becomes the steps for that direction. Put it through the adversary too,
   and tell them what it found.
-- **Be fast.** Write the first read from this file and the page. Open a
-  reference file first only when a harm check trips or a fact is
-  load-bearing (a regulated title, a language decision, a statistic).
+- **Be fast.** Write the first read from this file, the page and
+  `references/platform.md`. Open the other reference files first only when
+  a harm check trips or a fact is load-bearing (a regulated title, a
+  language decision, a statistic).
 - The harm checks still apply, including the assumption that an employed
   person's search is private.
 
@@ -288,17 +293,27 @@ kill it. Plausible-sounding directions are the cheapest thing to produce
 and the least useful to receive, so draft candidates and then attack each
 one with three questions:
 
-1. **Does the profile already give this?** If the reader this direction
-   names would already find, recognise and believe this person for it, it
-   is where they are now under a new label. Kill it.
-2. **Can the profile give this at all?** If the facts on the page cannot
-   carry it, and nothing the person could do in the next few months would
-   change that, it is a wish. Kill it.
+1. **Does the profile already give this?** Test it at the top: would this
+   reader, seeing only the headline and the first lines of About, already
+   take the person for this? If so, it is where they are now under a new
+   label. Kill it. A claim that sits only deep inside one entry is not yet
+   given.
+2. **Can the profile give this at all?** Count the evidence the person
+   demonstrably has: what is on the profile, plus what is on a page the
+   profile names (essays on their own site are evidence even though the
+   profile does not show them). If that cannot carry the direction, and
+   nothing they could do in the next few months would change it, it is a
+   wish. Kill it.
 3. **Are the steps worth taking?** Write them. A direction survives only
    with at least three concrete actions that are specific to it, each one
    changing what a named reader sees or can check. Steps any profile should
    take belong under "Improve now". Steps like "build your brand" or
    "network more" are not steps. Either way, kill it.
+
+Every verdict quotes what it rests on. A kill for "already given" shows
+the line where the profile says it; a kill for "cannot give" names what is
+missing; a survivor lists the facts that carry it. A verdict with nothing
+quoted is a guess, and two runs of a guess will disagree.
 
 Run this as a separate pass whose job is to reject, not to refine. If you
 can hand work to another agent, give it only the profile and the candidate

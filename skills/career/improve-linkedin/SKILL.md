@@ -93,16 +93,18 @@ If the person has a target (a job ad, a role, a type of client), ask for it
 or for two or three examples. The target's vocabulary is the best evidence
 you will get about what the reader searches for.
 
-Stay self-contained. Your inputs are what was shared for this review and
-what is public on the web, and nothing else.
+Stay self-contained. Your inputs are the profile, what the person shared
+for this review, and the links the profile itself names. Nothing else.
 
-- **The web is fair game.** Follow what the profile points to (the
-  person's site, essays, projects, talks), look up the employers it names,
-  read job ads for the target, and check LinkedIn's own help pages. Say
-  what you looked up, and keep what you found there apart from what the
-  profile itself says. Stay with the person's professional presence; this
-  is not a licence to dig into their life.
-- **The machine you are running on is not.** Do not read local files,
+- **Links named in the profile, and only those.** You may open the links
+  the profile carries (its own address, and any website, portfolio or
+  repository listed in its contact details or its text) and read the page
+  each one opens. Do not follow links onward from those pages, do not
+  search the web for the person or their employers, and do not go looking
+  for job ads or anything else. What you need to know about LinkedIn itself
+  is in this skill's reference files. Keep what you read on a linked page
+  apart from what the profile says, and say which is which.
+- **Never the machine you are running on.** Do not read local files,
   notes, or memory of earlier sessions, however relevant they look. The
   profile under review often belongs to someone other than the person
   running you, so anything local is about the wrong person or is something
@@ -110,8 +112,9 @@ what is public on the web, and nothing else.
   computer it runs on is not a review of the profile.
 
 The test: the same profile, reviewed from any machine by anyone, should
-get the same review. If a document you cannot reach this way would help,
-name it and let the person decide whether to share it.
+get the same review. If something you cannot reach this way would help (a
+job ad, a second document, a link the profile does not name), say which
+and let the person decide whether to give it to you.
 
 Work from whatever you are given, and never make access a precondition. A
 bare URL, three pasted sections or one screenshot still gets a first read:
@@ -205,73 +208,100 @@ background check, this gate is already passed.
 
 ## Step 4: Give the first read
 
-The first thing the person gets is fast signal: before any question, and
-before any long report. It should read in about two minutes, and it has
-four parts.
+The first thing the person gets is the whole picture, fast, before any
+question. It has six short parts and should read in three or four minutes.
 
 ```
-**Signal.** Three or four sentences: who this profile speaks to today, the
-strongest thing it is hiding, and the first thing that stops a reader.
+**Signal.** Two or three sentences: who this profile speaks to today, and
+the one thing that most holds it back.
 
-## Where this profile could go
-Two to four directions the person's evidence could credibly support,
-including ones they may not have seen. For each: the facts that make it
-possible, the reader, what reaching that reader could open, and how far
-today's profile is from it (close, a rewrite, or needs evidence that does
-not exist yet). End with the one you would pick and why.
+## Strengths
+What already works and has to survive any edit. Quote it. Three to five.
 
-## Do these whatever you choose
-The changes that hold under every direction, ranked, with text ready to
-paste wherever the text does not depend on the direction. Usually three to
-five.
+## Weaknesses
+What costs them with a reader, worst first. One line each: what it is, and
+what a reader makes of it. Three to six.
 
-## What changes with the direction
-For each direction, the two or three things that would be written
-differently: the headline, the opening of About, which evidence leads, the
-language, the Open to Work setting.
+## Improve now
+The changes worth making whatever they decide next, ranked. Each with Now
+and Proposed (ready to paste), and "Needs from you" where a fact is
+missing. Three to five.
 
-**Your call.** One question: which direction is closest, or what is
-missing from the list.
+## Pro tips
+Up to five things about how LinkedIn works that this profile is not using
+or is getting wrong. Each one tied to something on their page.
+
+## Directions
+Only the directions that survived the adversary. For each:
+- Built on: the facts on the profile that make it possible
+- Reader: who it would reach, and what that could open
+- Steps: three to five concrete actions to pursue it
+- The case against: the adversary's strongest objection, and why the
+  direction stands anyway
+Then the one you would pick, and why.
+
+**Your call.** One question.
 ```
 
 What makes it work:
 
-- **A direction is a reader the person does not have yet, and the point is
-  to show them ones they may not have seen.** This is the part of the first
-  read nobody can get from a checklist, so do the work: look for what two
-  or three of their facts make possible in combination that none of them
-  suggests alone. For each direction name the evidence behind it, the
-  reader it would reach, what reaching that reader could open, and what is
-  still missing. Each one has to be something the profile could prove with
-  facts already on the page or nearly so; say plainly when a direction
-  needs evidence that does not exist yet, because that tells them what to
-  go and build.
-- **The path they are already on is not a direction.** "The same job, said
-  better" or "visible to the employer you already work for" fills a slot
-  and tells them nothing: nobody needs a better profile aimed at people who
-  already hired them. If staying the course really is the best answer, say
-  so in one line of the signal and spend the directions on what else is
-  possible. The one exception is honesty about the channel: "a small
-  credible presence, effort elsewhere" belongs on the list whenever the
-  channel check points that way.
-- **Say which one you would pick, and why.** A list with no recommendation
-  hands the thinking back to the person.
-- **"Do these whatever you choose" is the part that needs no decision.**
-  Structured fields, evidence in Experience, a generic About, skills with
-  no role behind them, a missing route to contact: these are wrong under
-  every direction, so the person can start on them tonight while they
-  think about the rest.
-- **If they already told you where they are going**, keep the signal and
-  the direction-free changes, replace the two middle parts with the
-  specifics for their direction, and mention another direction only when
-  the profile makes a visibly stronger case for it than for the one they
-  named.
-- **Be fast.** Write the first read from this file and what is on the
-  page. Open a reference file first only when a harm check trips or a fact
-  is load-bearing (a regulated title, a language decision, a statistic).
-  The deeper files are for the conversation that follows.
-- The harm checks still apply here, including the assumption that an
-  employed person's search is private.
+- **Strengths come first, and you have to mean them.** People rewrite the
+  parts that were working. Telling them what to keep is advice.
+- **A weakness is a reader's reaction, not an empty field.** "No Featured
+  section" is a checklist item; "nothing here lets a stranger check the
+  claim in your headline" is a weakness.
+- **"Improve now" needs no decision.** Facts that disagree, an empty
+  current role, a generic line, skills with no role behind them: wrong
+  whatever comes next, so they can start tonight.
+- **A pro tip that would fit any profile is filler.** Each one takes a
+  platform fact from the reference files and points it at something on
+  this page: which of their fields recruiters can filter on, what the
+  logged-out view shows of them, what their top skill does in a search.
+- **A direction is a reader the person does not have yet.** Look for what
+  two or three of their facts make possible in combination that none
+  suggests alone. The path they are already on is not a direction: nobody
+  needs a better profile aimed at the people who already hired them.
+- **Channel honesty goes in the signal.** If LinkedIn is not where this
+  person's outcome gets decided, say so there, keep "Improve now" to the
+  credible minimum, and let Directions be empty or point off LinkedIn.
+- **If they already told you where they are going**, the Directions part
+  becomes the steps for that direction. Put it through the adversary too,
+  and tell them what it found.
+- **Be fast.** Write the first read from this file and the page. Open a
+  reference file first only when a harm check trips or a fact is
+  load-bearing (a regulated title, a language decision, a statistic).
+- The harm checks still apply, including the assumption that an employed
+  person's search is private.
+
+### The adversary
+
+A direction reaches the person only if it survives an honest attempt to
+kill it. Plausible-sounding directions are the cheapest thing to produce
+and the least useful to receive, so draft candidates and then attack each
+one with three questions:
+
+1. **Does the profile already give this?** If the reader this direction
+   names would already find, recognise and believe this person for it, it
+   is where they are now under a new label. Kill it.
+2. **Can the profile give this at all?** If the facts on the page cannot
+   carry it, and nothing the person could do in the next few months would
+   change that, it is a wish. Kill it.
+3. **Are the steps worth taking?** Write them. A direction survives only
+   with at least three concrete actions that are specific to it, each one
+   changing what a named reader sees or can check. Steps any profile should
+   take belong under "Improve now". Steps like "build your brand" or
+   "network more" are not steps. Either way, kill it.
+
+Run this as a separate pass whose job is to reject, not to refine. If you
+can hand work to another agent, give it only the profile and the candidate
+directions, tell it to argue for killing each one, and take its verdicts
+seriously. If you cannot, write the case against each direction before you
+write the case for it.
+
+Show the survivors only, each with the strongest objection it had to
+answer. No survivors is a real result: say that nothing more ambitious than
+the improvements above is supported yet, and name the evidence that would
+change that. One direction that holds beats three that fill a list.
 
 ## Step 5: Then talk
 
@@ -400,19 +430,23 @@ every claim to a grade, and let the grade decide how you say it:
 Never quote a multiplier ("21 times more views") to motivate a change; the
 reasoning about the reader is the argument. Say "unknown" when it is. Limits,
 setting names and feed behaviour change often, so tell the person to check
-anything load-bearing in their own account, and if you can search the web,
-confirm volatile facts on LinkedIn's help pages before leaning on them.
+anything load-bearing in their own account.
 
 When the person quotes a statistic or a rule they heard, or asks whether a
 course or coach is worth paying for, read `references/evidence.md`.
 
 ## Language and market
 
-- Reply in the language the person writes to you in.
-- Write profile text in the language the reader uses LinkedIn in, which may
-  be a different one. LinkedIn shows each viewer the profile version that
-  matches their interface language and translates nothing for you, so a
-  second-language version is a second profile to write, not a setting.
+- Write the review, and every replacement for existing text, in the
+  language the profile is written in, whatever language the person writes
+  to you in. That is the language its readers use, and it keeps each quote
+  and its replacement side by side in one language. Switch only if they
+  ask.
+- If the profile should also exist in another language for the reader it
+  needs, say so as a finding. LinkedIn shows each viewer the version that
+  matches their interface language and translates nothing for you, so that
+  is a second profile to write, and its text is written in its own
+  language.
 - Write natively in that language and regional variant. Do not translate
   English phrasing or carry English idioms across. If you are not confident
   your text would pass for a native professional's, say so and recommend a

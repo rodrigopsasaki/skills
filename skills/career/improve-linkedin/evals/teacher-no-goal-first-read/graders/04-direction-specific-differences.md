@@ -4,4 +4,4 @@ focus: trace
 weight: 1
 ---
 
-The response says what would be written differently for the different directions, for example a different headline or a different lead in the About for each.
+Each direction comes with its own specific steps, and those steps differ between directions rather than repeating generic profile advice.

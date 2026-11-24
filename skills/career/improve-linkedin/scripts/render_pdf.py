@@ -72,9 +72,10 @@ blockquote {
   padding: 3mm 4.5mm 1mm 4.5mm;
   background: #f4f7f8;
   border-inline-start: 3px solid #1f5468;
-  page-break-inside: avoid;
-  break-inside: avoid;
+  orphans: 3;
+  widows: 3;
 }
+p:has(+ blockquote, + ul, + ol) { page-break-after: avoid; break-after: avoid; }
 blockquote p:last-child { margin-bottom: 3mm; }
 code {
   font-family: ui-monospace, "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace;

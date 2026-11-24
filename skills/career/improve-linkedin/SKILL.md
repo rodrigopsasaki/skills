@@ -14,6 +14,7 @@ description: >-
   language ("melhorar meu LinkedIn", "optimizar mi perfil"), even for a quick
   look. NOT for resume or CV writing with no LinkedIn angle, company page or
   ad strategy, or scraping, automation tools or engagement pods.
+compatibility: Python 3.9 or later, to render the review as a PDF.
 ---
 
 # Improve a LinkedIn presence
@@ -332,6 +333,30 @@ Show the survivors only, each with the strongest objection it had to
 answer. No survivors is a real result: say that nothing more ambitious than
 the improvements above is supported yet, and name the evidence that would
 change that. One direction that holds beats three that fill a list.
+
+### Deliver it as a PDF
+
+The first read is a document the person will keep, forward and work
+through with a pen, so hand it over as a PDF, not as a wall of chat.
+
+1. Write the whole first read to a markdown file, in the profile's
+   language, with the six parts as `##` headings. Put every piece of
+   replacement text in a blockquote: the renderer turns blockquotes into
+   boxed blocks that are easy to find and copy from. Leave fill-in slots in
+   square brackets, which it highlights.
+2. Render it with the script in this skill's folder:
+   `python3 scripts/render_pdf.py review.md -o linkedin-review.pdf --title "<name>: <LinkedIn review, in the profile's language>" --lang <language code>`
+   It needs only Python. It prints through a browser already on the
+   machine and tries two other engines after that.
+3. Give the person the PDF with whatever file tool you have, or say where
+   it is saved. In chat, give only the signal, the direction you would pick
+   and your one question. Do not paste the report into chat as well.
+4. If the script exits saying it found no PDF engine, it has left an HTML
+   file beside the output. Hand that over and say it prints to PDF from
+   any browser. Do not try to install anything.
+
+Later turns stay in chat. Render again when the person asks, or when the
+review has changed enough that the file they hold is stale.
 
 ## Step 5: Then talk
 

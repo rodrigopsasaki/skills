@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: nurse-portuguese-leadership-move
+expected_outcome: |
+  A review written in Brazilian Portuguese that works out who has to read
+  this profile for a move into nursing coordination, ranks a handful of
+  changes, and gives replacement text in Portuguese built only from facts
+  the nurse supplied (the night-shift roster and three years precepting
+  residents), asking for missing facts instead of inventing numbers.

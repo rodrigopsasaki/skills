@@ -29,6 +29,7 @@ want into `~/.claude/skills/` (global) or `.claude/skills/` (per-project).
 | Skill | What it does |
 | --- | --- |
 | [`find-shape`](./skills/engineering/find-shape/SKILL.md) | Find the shape of one capability by growing it toward a judgment-scored fitness over a bounded run of rounds — each round the best change you can currently justify, exposed to real feedback, the next round *discovered* from the last rather than planned. The disciplined alternative to "just iterate on it." |
+| [`improve-linkedin`](./skills/career/improve-linkedin/SKILL.md) | Review and improve a LinkedIn presence for any career, country and language. One model in place of the usual checklist: a profile answers one specific reader, who has to find you, recognise you, believe you and know what to do next, in that order. Ranks the few changes that matter, writes the replacement text from your own facts, says so when LinkedIn is not where your decision gets made, and grades every claim it makes (documented, measured, vendor, practice, folklore). |
 
 ## Why these exist
 

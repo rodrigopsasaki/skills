@@ -194,10 +194,11 @@ four parts.
 strongest thing it is hiding, and the first thing that stops a reader.
 
 ## Where this profile could go
-Two to four directions the history and evidence could credibly support.
-For each: the reader, what the profile would have to prove to them, and how
-far today's profile is from that (close, a rewrite, or needs evidence that
-does not exist yet).
+Two to four directions the person's evidence could credibly support,
+including ones they may not have seen. For each: the facts that make it
+possible, the reader, what reaching that reader could open, and how far
+today's profile is from it (close, a rewrite, or needs evidence that does
+not exist yet). End with the one you would pick and why.
 
 ## Do these whatever you choose
 The changes that hold under every direction, ranked, with text ready to
@@ -215,13 +216,26 @@ missing from the list.
 
 What makes it work:
 
-- **Directions come from this person's evidence, not from a list of
-  careers.** Each one has to be something the profile could prove with
-  facts already on the page or nearly so. Say plainly when a direction
+- **A direction is a reader the person does not have yet, and the point is
+  to show them ones they may not have seen.** This is the part of the first
+  read nobody can get from a checklist, so do the work: look for what two
+  or three of their facts make possible in combination that none of them
+  suggests alone. For each direction name the evidence behind it, the
+  reader it would reach, what reaching that reader could open, and what is
+  still missing. Each one has to be something the profile could prove with
+  facts already on the page or nearly so; say plainly when a direction
   needs evidence that does not exist yet, because that tells them what to
-  go and build. Include the direction they are already on (the same work,
-  found by better employers or clients), and include "a small credible
-  presence, effort elsewhere" whenever the channel check points that way.
+  go and build.
+- **The path they are already on is not a direction.** "The same job, said
+  better" or "visible to the employer you already work for" fills a slot
+  and tells them nothing: nobody needs a better profile aimed at people who
+  already hired them. If staying the course really is the best answer, say
+  so in one line of the signal and spend the directions on what else is
+  possible. The one exception is honesty about the channel: "a small
+  credible presence, effort elsewhere" belongs on the list whenever the
+  channel check points that way.
+- **Say which one you would pick, and why.** A list with no recommendation
+  hands the thinking back to the person.
 - **"Do these whatever you choose" is the part that needs no decision.**
   Structured fields, evidence in Experience, a generic About, skills with
   no role behind them, a missing route to contact: these are wrong under

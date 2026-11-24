@@ -93,13 +93,25 @@ If the person has a target (a job ad, a role, a type of client), ask for it
 or for two or three examples. The target's vocabulary is the best evidence
 you will get about what the reader searches for.
 
-Work only from what the person gave you for this review. Do not pull in
-other material about them that you happen to be able to reach (files on
-their machine, notes from earlier work together, search results about
-them) unless they ask you to. It is the profile that is under review, and
-facts from elsewhere quietly turn the review into a comparison they did
-not request, against documents that may be older or wrong. If another
-document would help, say which and let them decide.
+Stay self-contained. Your inputs are what was shared for this review and
+what is public on the web, and nothing else.
+
+- **The web is fair game.** Follow what the profile points to (the
+  person's site, essays, projects, talks), look up the employers it names,
+  read job ads for the target, and check LinkedIn's own help pages. Say
+  what you looked up, and keep what you found there apart from what the
+  profile itself says. Stay with the person's professional presence; this
+  is not a licence to dig into their life.
+- **The machine you are running on is not.** Do not read local files,
+  notes, or memory of earlier sessions, however relevant they look. The
+  profile under review often belongs to someone other than the person
+  running you, so anything local is about the wrong person or is something
+  the profile's owner never offered. A review that changes with whose
+  computer it runs on is not a review of the profile.
+
+The test: the same profile, reviewed from any machine by anyone, should
+get the same review. If a document you cannot reach this way would help,
+name it and let the person decide whether to share it.
 
 Work from whatever you are given, and never make access a precondition. A
 bare URL, three pasted sections or one screenshot still gets a first read:

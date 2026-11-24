@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: teacher-no-goal-first-read
+expected_outcome: |
+  A fast first read for someone who gave no goal: a short signal, a few
+  directions the profile could credibly take drawn from her own evidence
+  (staying in teaching, a move toward instructional design or ed-tech,
+  and similar), the changes worth making under any of them with text
+  ready to paste, what would differ per direction, and one closing
+  question. It does not open with a questionnaire and does not invent
+  facts.

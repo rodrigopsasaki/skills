@@ -116,11 +116,13 @@ then ask only for what you cannot infer and that would change the advice.
    layoff. What to disclose is the person's decision; your job is to lay out
    the tradeoff, never to push disclosure as a virtue.
 
-Ask in one batch, at most about four questions, and only the ones that
-matter. If the person wants a quick pass or the answers are obvious enough,
-state your assumptions at the top of the report and proceed. The reason for
-both halves: a review aimed at the wrong reader is worse than none, and an
-interview before any value loses the person.
+Do not open with questions. Infer what you can, say what you assumed, and
+give the first read (Step 4). People came for signal, and they learn more
+from seeing a wrong assumption on the page, where they can correct it in a
+word, than from answering a questionnaire. Questions go at the end of the
+first read, and only the ones it could not settle. When the goal itself is
+unknown, that is not a question to ask first either: laying out the
+directions the profile could take is the first read's job.
 
 Then run the harm checks. Several pieces of standard advice actively hurt
 specific people (a public Open to Work frame for someone whose employer
@@ -168,12 +170,74 @@ actually use, the right Open to Work mode for their situation, a link to
 the portfolio or practice. For someone who only needs to survive a
 background check, this gate is already passed.
 
-## Step 4: Report
+## Step 4: Give the first read
 
-Lead with the verdict, then the few changes that matter, each with text
-ready to paste. Rank by gate first and by effect second. Keep the first
-tier to three to five changes: a person will do three things and will not
-do thirty, so a long undifferentiated list is a way of giving no advice.
+The first thing the person gets is fast signal: before any question, and
+before any long report. It should read in about two minutes, and it has
+four parts.
+
+```
+**Signal.** Three or four sentences: who this profile speaks to today, the
+strongest thing it is hiding, and the first thing that stops a reader.
+
+## Where this profile could go
+Two to four directions the history and evidence could credibly support.
+For each: the reader, what the profile would have to prove to them, and how
+far today's profile is from that (close, a rewrite, or needs evidence that
+does not exist yet).
+
+## Do these whatever you choose
+The changes that hold under every direction, ranked, with text ready to
+paste wherever the text does not depend on the direction. Usually three to
+five.
+
+## What changes with the direction
+For each direction, the two or three things that would be written
+differently: the headline, the opening of About, which evidence leads, the
+language, the Open to Work setting.
+
+**Your call.** One question: which direction is closest, or what is
+missing from the list.
+```
+
+What makes it work:
+
+- **Directions come from this person's evidence, not from a list of
+  careers.** Each one has to be something the profile could prove with
+  facts already on the page or nearly so. Say plainly when a direction
+  needs evidence that does not exist yet, because that tells them what to
+  go and build. Include the direction they are already on (the same work,
+  found by better employers or clients), and include "a small credible
+  presence, effort elsewhere" whenever the channel check points that way.
+- **"Do these whatever you choose" is the part that needs no decision.**
+  Structured fields, evidence in Experience, a generic About, skills with
+  no role behind them, a missing route to contact: these are wrong under
+  every direction, so the person can start on them tonight while they
+  think about the rest.
+- **If they already told you where they are going**, keep the signal and
+  the direction-free changes, replace the two middle parts with the
+  specifics for their direction, and mention another direction only when
+  the profile makes a visibly stronger case for it than for the one they
+  named.
+- **Be fast.** Write the first read from this file and what is on the
+  page. Open a reference file first only when a harm check trips or a fact
+  is load-bearing (a regulated title, a language decision, a statistic).
+  The deeper files are for the conversation that follows.
+- The harm checks still apply here, including the assumption that an
+  employed person's search is private.
+
+## Step 5: Then talk
+
+After the first read the person steers, and this becomes a conversation.
+Answer what they ask, rewrite the section they point at, take the facts
+they give you and fill the slots. Do not re-issue the whole report every
+turn.
+
+When they pick a direction and want the full treatment, give the few
+changes that matter for it, each with text ready to paste. Rank by gate
+first and by effect second. Keep the first tier to three to five changes: a
+person will do three things and will not do thirty, so a long
+undifferentiated list is a way of giving no advice.
 
 Use this shape, scaled to what was asked:
 

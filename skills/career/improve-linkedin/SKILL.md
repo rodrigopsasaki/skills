@@ -147,7 +147,11 @@ then ask only for what you cannot infer and that would change the advice.
    employer's social media policy. When someone has a job, wants a
    different one, and has not said their employer knows, assume the employer
    must not find out: write nothing into the public profile that announces
-   the search, and say that you assumed it. The wrong guess in that
+   the search, and say that you assumed it. Read the dates on the latest
+   role before you assume they have a job at all: a current role shows no
+   end date, so an end date on the most recent entry means it is over, the
+   person is probably looking now, and the quiet default does not apply.
+   Say which you concluded and from what. The wrong guess in that
    direction costs a slightly quieter profile; the wrong guess in the other
    can cost the job they have.
 5. **Evidence.** What proof exists? A student or a career changer has too
@@ -294,11 +298,13 @@ kill it. Plausible-sounding directions are the cheapest thing to produce
 and the least useful to receive, so draft candidates and then attack each
 one with three questions:
 
-1. **Does the profile already give this?** Test it at the top: would this
-   reader, seeing only the headline and the first lines of About, already
-   take the person for this? If so, it is where they are now under a new
-   label. Kill it. A claim that sits only deep inside one entry is not yet
-   given.
+1. **Is this the work they already do?** If the direction names the job
+   they hold now or held most recently, it is not a direction, however
+   badly the profile shows it. Kill it. If the top of the profile fails to
+   say what that work is (the market, the specialism, the scale), that is
+   a finding for "Improve now": write the headline and the opening of About
+   that say it. Getting someone to state clearly what they already are is
+   a fix, and offering it as a new direction is the lazy answer.
 2. **Can the profile give this at all?** Count the evidence the person
    demonstrably has: what is on the profile, plus what is on a page the
    profile names (essays on their own site are evidence even though the

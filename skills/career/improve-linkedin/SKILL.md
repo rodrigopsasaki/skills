@@ -124,7 +124,11 @@ deep pass, and offer the cheapest one for them (pasting a section is
 cheaper than an export).
 
 Say in your report what you could not see. A review that quietly skips the
-photo and the Featured section reads as if they were fine.
+photo and the Featured section reads as if they were fine. The reverse
+matters as much: never say something is missing from a part you could not
+see. An export that shows three skills does not tell you the other skills
+are absent, and a PDF with no activity in it does not mean the person
+never posts. Say "I could not see" and stop there.
 
 ## Step 2: Situate the person
 
@@ -196,7 +200,11 @@ named thing, an outcome, a third party saying it. Then check the sections
 against each other: a headline the Experience contradicts, a top skill with
 no role behind it, recommendations that say only "great to work with",
 dates that do not line up. Agreement between sections is itself the trust
-signal. Run the swap test on About: put a colleague's name on it, and if it
+signal, so check the person's facts against each other every time, in the
+first read too: dates against the years of experience they state, roles
+that overlap with no explanation, a past job still written in the present
+tense, a number in About that no role claims. Name each mismatch and ask
+which is true; do not guess, and do not assume a motive. Run the swap test on About: put a colleague's name on it, and if it
 still fits, it is generic. Section-by-section principles, failure modes and
 tests: `references/sections.md`.
 
@@ -380,13 +388,10 @@ scaffolding. In practice:
   because an edit made before them is the leak.
 - **Ask once.** Put the facts you need under the change that needs them,
   and do not repeat them in a closing recap.
-- **Check their facts against each other** before you build on them: dates
-  against stated years of experience, overlapping roles, a past job still
-  written in the present tense. If they also handed you a CV or bio for
-  this, compare the two, and where they disagree on a title or a date do
-  not guess which is right and do not assume a motive: name the mismatch,
-  ask which is true, and have both say it. Only compare against documents
-  they gave you for this purpose.
+- **If they handed you a CV or bio for this review**, compare it with the
+  profile, and where the two disagree on a title or a date, name the
+  mismatch and ask which is true. Only compare against documents they gave
+  you for this purpose.
 
 ## Writing replacement text
 

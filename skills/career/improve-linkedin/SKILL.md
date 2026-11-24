@@ -330,9 +330,13 @@ scaffolding. In practice:
   because an edit made before them is the leak.
 - **Ask once.** Put the facts you need under the change that needs them,
   and do not repeat them in a closing recap.
-- **Check their facts against each other** before you build on them. If the
-  dates in the profile and the experience they state do not add up, say so:
-  the reader will notice, and so will a background check.
+- **Check their facts against each other** before you build on them: dates
+  against stated years of experience, overlapping roles, a past job still
+  written in the present tense, and the profile against any CV or bio they
+  have shared. Where two of their own documents disagree on a title or a
+  date, do not guess which is right and do not assume a motive. Name the
+  mismatch, ask which is true, and have both say it: the reader will
+  notice, and so will a background check.
 
 ## Writing replacement text
 

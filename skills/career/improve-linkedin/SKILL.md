@@ -79,9 +79,15 @@ what each one hides:
 | A signed-in browser the person has opened for you | All of it | Nothing, if you scroll and expand |
 | Their CV | Facts to draw on | It is not the profile; do not review it as one |
 
-A public profile URL fetched while logged out usually returns a login wall
-or a stub. Do not mistake a failed fetch for an empty profile; ask for one
-of the sources above instead.
+| The public URL, opened logged out in a real browser | What a stranger and a search engine see: the first line of About, recent activity, certifications, languages, recommendations | Experience text and skills are masked, the headline may be missing, About is cut short |
+
+A plain fetch of a public profile URL usually returns a login wall or an
+error, and so can the main site in a browser when the country address for
+the same profile (for example `br.linkedin.com/in/...`) serves the public
+view. Do not mistake a failed fetch for an empty profile. When you do get
+the logged-out view, treat it as one reader's view worth reviewing in its
+own right, since it is what anyone checking the person's name without an
+account sees first, and say plainly which sections it hid from you.
 
 If the person has a target (a job ad, a role, a type of client), ask for it
 or for two or three examples. The target's vocabulary is the best evidence
